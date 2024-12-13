@@ -5,7 +5,7 @@
 if ! command -v dotnet &> /dev/null
 then
     echo "dotnet 6.0 is not found or not installed."
-    echo "Installing dotnet 5.0..."
+    echo "Installing dotnet 6.0..."
 
     # Add Microsoft package signing key and repository
     wget https://packages.microsoft.com/config/ubuntu/$(lsb_release -rs)/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
